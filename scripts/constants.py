@@ -31,7 +31,7 @@ def init_assets():
 def init_anims():
   return {
     'player/idle': Animation(load_images('entities/player/idle', None)),
-    'player/run': Animation(load_images('entities/player/run', None), frame_duration=8),
+    'player/run': Animation(load_images('entities/player/run', None), frame_duration=4),
     'player/jump': Animation(load_images('entities/player/jump', None)),
     'player/wall_slide': Animation(load_images('entities/player/wall_slide', None)),
     'particle/leaf': Animation(load_images('particles/leaf'), frame_duration=12, loop=False),
